@@ -12,10 +12,10 @@
 (+ (* 2 4) (- 4 6))     ; 6
 
 
-(define a 3)            ; a = 3 
+(define a 3)            ;Value: a 
 
 
-(define b (+ a 1))      ; a = 4
+(define b (+ a 1))      ;Value: b
 
 
 (+ a b (* a b))         ; 19
