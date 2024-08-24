@@ -1,5 +1,3 @@
-
-
 ; recursive version
 
 (define (fast-expt b n)
