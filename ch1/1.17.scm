@@ -1,6 +1,3 @@
-
-
-
 (define (double x) (+ x x))
 (define (half x) (/ x 2))
 
@@ -10,3 +7,7 @@
         ((= b 1) a)
         (( even? b) (double (faster-multi a (half b))))
         (else (+ a (faster-multi a (- b 1))))))
+
+
+
+
